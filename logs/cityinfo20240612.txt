@@ -1,0 +1,400 @@
+2024-06-12 10:31:48.195 +09:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-12 10:31:48.289 +09:00 [DBG] Hosting starting
+2024-06-12 10:31:48.400 +09:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-06-12 10:31:48.455 +09:00 [INF] Now listening on: https://localhost:7013
+2024-06-12 10:31:48.456 +09:00 [INF] Now listening on: http://localhost:5241
+2024-06-12 10:31:48.457 +09:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-06-12 10:31:48.458 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-12 10:31:48.458 +09:00 [INF] Hosting environment: Development
+2024-06-12 10:31:48.459 +09:00 [INF] Content root path: C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API
+2024-06-12 10:31:48.459 +09:00 [DBG] Hosting started
+2024-06-12 21:36:01.922 +09:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-12 21:36:02.261 +09:00 [DBG] Entity Framework Core 8.0.6 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.6' with options: None
+2024-06-12 21:36:02.557 +09:00 [DBG] 'CityInfoContext' disposed.
+2024-06-12 22:23:12.012 +09:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-12 22:23:12.270 +09:00 [DBG] Entity Framework Core 8.0.6 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.6' with options: None
+2024-06-12 22:23:12.280 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:23:12.286 +09:00 [DBG] Created DbConnection. (5ms).
+2024-06-12 22:23:12.289 +09:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.291 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:23:12.293 +09:00 [DBG] Created DbConnection. (1ms).
+2024-06-12 22:23:12.294 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.301 +09:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.303 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.306 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.307 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:23:12.307 +09:00 [DBG] Created DbConnection. (0ms).
+2024-06-12 22:23:12.308 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.308 +09:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.309 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.309 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.310 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.315 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.318 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:23:12.322 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2024-06-12 22:23:12.323 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2024-06-12 22:23:12.326 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-06-12 22:23:12.338 +09:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-06-12 22:23:12.340 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.341 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-06-12 22:23:12.376 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:23:12.377 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.377 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-06-12 22:23:12.378 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.378 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.379 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-06-12 22:23:12.382 +09:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-06-12 22:23:12.383 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.383 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.384 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:23:12.384 +09:00 [DBG] Created DbConnection. (0ms).
+2024-06-12 22:23:12.385 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.386 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.387 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.387 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.389 +09:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-06-12 22:23:12.390 +09:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-06-12 22:23:12.390 +09:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (1ms).
+2024-06-12 22:23:12.391 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.391 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.392 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 22:23:12.394 +09:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 22:23:12.395 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.395 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.397 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.397 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.398 +09:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-06-12 22:23:12.398 +09:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-12 22:23:12.399 +09:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-12 22:23:12.399 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-12 22:23:12.401 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-12 22:23:12.402 +09:00 [DBG] Closing data reader to 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.403 +09:00 [DBG] A data reader for 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db' is being disposed after spending 1ms reading results.
+2024-06-12 22:23:12.404 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.404 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.410 +09:00 [INF] Applying migration '20240612123602_CityInfoDBInitialMigration'.
+2024-06-12 22:23:12.421 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.422 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.423 +09:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-06-12 22:23:12.425 +09:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-06-12 22:23:12.426 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:23:12.426 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.426 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.427 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-06-12 22:23:12.428 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-06-12 22:23:12.429 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:23:12.429 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.430 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.430 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-06-12 22:23:12.431 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-06-12 22:23:12.432 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:23:12.433 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.433 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.434 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2024-06-12 22:23:12.435 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2024-06-12 22:23:12.436 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:23:12.436 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.437 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:23:12.437 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240612123602_CityInfoDBInitialMigration', '8.0.6');
+2024-06-12 22:23:12.438 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240612123602_CityInfoDBInitialMigration', '8.0.6');
+2024-06-12 22:23:12.440 +09:00 [DBG] Committing transaction.
+2024-06-12 22:23:12.441 +09:00 [DBG] Committed transaction.
+2024-06-12 22:23:12.442 +09:00 [DBG] Disposing transaction.
+2024-06-12 22:23:12.443 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:23:12.443 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:23:12.445 +09:00 [DBG] 'CityInfoContext' disposed.
+2024-06-12 22:23:12.446 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:23:12.446 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:29:10.683 +09:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-12 22:29:10.961 +09:00 [DBG] Entity Framework Core 8.0.6 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.6' with options: None
+2024-06-12 22:29:11.196 +09:00 [DBG] 'CityInfoContext' disposed.
+2024-06-12 22:29:45.496 +09:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-12 22:29:45.775 +09:00 [DBG] Entity Framework Core 8.0.6 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.6' with options: None
+2024-06-12 22:29:45.785 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:29:45.790 +09:00 [DBG] Created DbConnection. (4ms).
+2024-06-12 22:29:45.793 +09:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.796 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:29:45.797 +09:00 [DBG] Created DbConnection. (1ms).
+2024-06-12 22:29:45.799 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.804 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.806 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.810 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-06-12 22:29:45.814 +09:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-06-12 22:29:45.817 +09:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2024-06-12 22:29:45.818 +09:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2024-06-12 22:29:45.818 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.820 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.823 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 22:29:45.833 +09:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 22:29:45.835 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.837 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-06-12 22:29:45.837 +09:00 [DBG] Creating DbConnection.
+2024-06-12 22:29:45.838 +09:00 [DBG] Created DbConnection. (0ms).
+2024-06-12 22:29:45.838 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.839 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.840 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.840 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:29:45.841 +09:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-06-12 22:29:45.841 +09:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-06-12 22:29:45.842 +09:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-06-12 22:29:45.842 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.843 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.843 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 22:29:45.844 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 22:29:45.845 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.846 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:29:45.854 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.855 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.856 +09:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-06-12 22:29:45.856 +09:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-12 22:29:45.857 +09:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-06-12 22:29:45.858 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-12 22:29:45.859 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-12 22:29:45.861 +09:00 [DBG] Closing data reader to 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.862 +09:00 [DBG] A data reader for 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db' is being disposed after spending 1ms reading results.
+2024-06-12 22:29:45.863 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.864 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:29:45.869 +09:00 [INF] Applying migration '20240612132911_CityInfoDBAddPOIDescription'.
+2024-06-12 22:29:45.883 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.883 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.885 +09:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-06-12 22:29:45.887 +09:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-06-12 22:29:45.888 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:29:45.888 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:29:45.889 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:29:45.889 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NULL;
+2024-06-12 22:29:45.890 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NULL;
+2024-06-12 22:29:45.891 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 22:29:45.892 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:29:45.892 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 22:29:45.893 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240612132911_CityInfoDBAddPOIDescription', '8.0.6');
+2024-06-12 22:29:45.894 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240612132911_CityInfoDBAddPOIDescription', '8.0.6');
+2024-06-12 22:29:45.895 +09:00 [DBG] Committing transaction.
+2024-06-12 22:29:45.899 +09:00 [DBG] Committed transaction.
+2024-06-12 22:29:45.900 +09:00 [DBG] Disposing transaction.
+2024-06-12 22:29:45.900 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 22:29:45.901 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 22:29:45.902 +09:00 [DBG] 'CityInfoContext' disposed.
+2024-06-12 22:29:45.903 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 22:29:45.903 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 23:52:01.585 +09:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-12 23:52:01.859 +09:00 [DBG] Entity Framework Core 8.0.6 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.6' with options: None
+2024-06-12 23:52:02.111 +09:00 [DBG] 'CityInfoContext' disposed.
+2024-06-12 23:52:34.938 +09:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-12 23:52:35.223 +09:00 [DBG] Entity Framework Core 8.0.6 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.6' with options: None
+2024-06-12 23:52:35.233 +09:00 [DBG] Creating DbConnection.
+2024-06-12 23:52:35.240 +09:00 [DBG] Created DbConnection. (5ms).
+2024-06-12 23:52:35.244 +09:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.246 +09:00 [DBG] Creating DbConnection.
+2024-06-12 23:52:35.247 +09:00 [DBG] Created DbConnection. (1ms).
+2024-06-12 23:52:35.249 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.253 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.256 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.259 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 23:52:35.265 +09:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-06-12 23:52:35.269 +09:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2024-06-12 23:52:35.270 +09:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (6ms).
+2024-06-12 23:52:35.270 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.272 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.276 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 23:52:35.295 +09:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 23:52:35.299 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.301 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (3ms).
+2024-06-12 23:52:35.303 +09:00 [DBG] Creating DbConnection.
+2024-06-12 23:52:35.303 +09:00 [DBG] Created DbConnection. (0ms).
+2024-06-12 23:52:35.304 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.306 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.307 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.308 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-06-12 23:52:35.309 +09:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-06-12 23:52:35.310 +09:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-06-12 23:52:35.311 +09:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (1ms).
+2024-06-12 23:52:35.311 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.312 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.313 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 23:52:35.314 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-12 23:52:35.315 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.315 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 23:52:35.323 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.324 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.325 +09:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-06-12 23:52:35.325 +09:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-06-12 23:52:35.326 +09:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-06-12 23:52:35.326 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-12 23:52:35.328 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-12 23:52:35.330 +09:00 [DBG] Closing data reader to 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.332 +09:00 [DBG] A data reader for 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db' is being disposed after spending 2ms reading results.
+2024-06-12 23:52:35.332 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.333 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 23:52:35.338 +09:00 [INF] Applying migration '20240612145202_InitialDataSeed'.
+2024-06-12 23:52:35.359 +09:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.360 +09:00 [DBG] Opened connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.361 +09:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-06-12 23:52:35.363 +09:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-06-12 23:52:35.365 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 23:52:35.365 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 23:52:35.366 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-06-12 23:52:35.366 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with the cathedral that was never really finished.', 'Antwerp');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big tower.', 'Paris');
+SELECT changes();
+2024-06-12 23:52:35.368 +09:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with the cathedral that was never really finished.', 'Antwerp');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big tower.', 'Paris');
+SELECT changes();
+2024-06-12 23:52:35.370 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 23:52:35.371 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 23:52:35.371 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-06-12 23:52:35.372 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited urban park in the United States.', 'Central Park');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A Gothic style cathedral, conceived by architects Jan and Pieter Appelmans.', 'Cathedral');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'The the finest example of railway architecture in Belgium.', 'Antwerp Central Station');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'A wrought iron lattice tower on the Champ de Mars, named after engineer Gustave Eiffel.', 'Eiffel Tower');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'The world''s largest museum.', 'The Louvre');
+SELECT changes();
+2024-06-12 23:52:35.374 +09:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited urban park in the United States.', 'Central Park');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A Gothic style cathedral, conceived by architects Jan and Pieter Appelmans.', 'Cathedral');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'The the finest example of railway architecture in Belgium.', 'Antwerp Central Station');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'A wrought iron lattice tower on the Champ de Mars, named after engineer Gustave Eiffel.', 'Eiffel Tower');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'The world''s largest museum.', 'The Louvre');
+SELECT changes();
+2024-06-12 23:52:35.376 +09:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-06-12 23:52:35.377 +09:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-06-12 23:52:35.378 +09:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-06-12 23:52:35.378 +09:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240612145202_InitialDataSeed', '8.0.6');
+2024-06-12 23:52:35.379 +09:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240612145202_InitialDataSeed', '8.0.6');
+2024-06-12 23:52:35.381 +09:00 [DBG] Committing transaction.
+2024-06-12 23:52:35.383 +09:00 [DBG] Committed transaction.
+2024-06-12 23:52:35.384 +09:00 [DBG] Disposing transaction.
+2024-06-12 23:52:35.385 +09:00 [DBG] Closing connection to database 'main' on server 'C:\Users\heeji\OneDrive\Documents\GitHub\CityInfo.API\CityInfo.db'.
+2024-06-12 23:52:35.385 +09:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-06-12 23:52:35.387 +09:00 [DBG] 'CityInfoContext' disposed.
+2024-06-12 23:52:35.387 +09:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-06-12 23:52:35.388 +09:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
